@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    text-decoration: beige;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    background-image: url("bookbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login-container {
+    font-family: Arial, sans-serif;
+    text-decoration: beige;
+    background-color: black;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 350px;
+    width: 300px;
+    background: linear-gradient(45deg, #8175eb,#ef58db);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+

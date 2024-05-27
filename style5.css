@@ -1,0 +1,32 @@
+#row1{
+height:200px;
+width:200px;
+border:2px solid black;
+background-color: bisque;
+float:left;
+opacity:0.3;
+transition:1s;
+}
+#row1:hover{
+    opacity:1;
+}
+#row2{
+    height:200px;
+    width:200px;
+    border:2px solid black;
+    background-color: rosybrown; 
+    float:left;
+    position:absolute;
+    top:100px;
+    left:100px;
+}
+#row3{
+    height:200px;
+    width:200px;
+    border:2px solid black;
+    background-color: khaki;
+    float:left;
+    position:relative;
+    top:200px;
+    right:50px;
+}

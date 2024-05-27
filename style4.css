@@ -1,0 +1,138 @@
+.main{
+    background-color: yellowgreen;
+    height: 540px;
+    width: 1002px;
+}
+#row1{
+    background-color: aqua;
+    height: 100px;
+    width: 1002px;
+    text-align: center;
+    text-decoration: solid;
+    text-decoration: black;
+    font-size: 50px;
+}
+#row2{
+    background-color: aquamarine;
+    height: 30px;
+    width: 1002px;
+}
+#row21{
+    background-color: lawngreen;
+    height: 30px;
+    width: 167px;
+    float: left;
+}
+#row22{
+    background-color: lavender;
+    height: 30px;
+    width: 167px;
+    float: left;
+}
+#row23{
+    background-color: lemonchiffon;
+    height: 30px;
+    width: 167px;
+    float: left;
+}
+#row24{
+    background-color: lightcoral;
+    height: 30px;
+    width: 167px;
+    float: left;
+}
+#row25{
+    background-color: lightpink;
+    height: 30px;
+    width: 167px;
+    float: left;
+}
+#row26{
+    background-color: lightgrey;
+    height: 30px;
+    width: 167px;
+    float: left;
+}
+#row3{
+    background-color: burlywood;
+    height: 150px;
+    width: 1002px;
+}
+#col1{
+    background-color: paleturquoise;
+    height:150px;
+    width:200px;
+    float:left;
+}
+#col11{
+    background-color: tan;
+    height: 25px;
+    width:200px;
+}
+#col12{
+    background-color: teal;
+    height: 25px;
+    width:200px;
+}
+#col13{
+    background-color: thistle;
+    height: 25px;
+    width:200px;
+}
+#col14{
+    background-color: tomato;
+    height: 25px;
+    width:200px;
+}
+#col15{
+    background-color: turquoise;
+    height: 25px;
+    width:200px;
+}
+#col16{
+    background-color: darkred;
+    height: 25px;
+    width:200px;
+}
+#col2{
+    background-color: peachpuff;
+    height:150px;
+    width:802px;
+    float:left;
+}
+#row4{
+    background-color: blueviolet;
+    height: 90px;
+    width: 1002px;
+    text-align: center;
+}
+#row5{
+    background-color: coral;
+    height: 90px;
+    width: 1002px;
+}
+#row51{
+    background-color: gold;
+    width:334px;
+    height:90px;
+    float:left;
+}
+#row52{
+    background-color: greenyellow;
+    width:334px;
+    height:90px;
+    float:left;
+}
+#row53{
+    background-color: goldenrod;
+    width:334px;
+    height:90px;
+    float:left;
+}
+#row6{
+    background-color: cornflowerblue;
+    height: 90px;
+    width: 1002px;
+    text-decoration: lightblue;
+    text-align: center;
+}

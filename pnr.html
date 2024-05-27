@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        form {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 300px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+    <title>check pnr</title>
+</head>
+<body>
+
+    <form>
+        <label for="input1"><strong>Enter PNR</strong></label>
+        <input type="text" id="input1" name="input1" required>
+
+        <button type="submit" id="btn2">Submit</button>
+    </form>
+<script>
+document.getElementById("btn2").addEventListener("click", function(e){
+        e.preventDefault();
+        fetch('https://irctc1.p.rapidapi.com/api/v3/getPNRStatus?pnrNumber=%3CREQUIRED%3E',{
+            method: 'GET',
+	headers: {
+		'X-RapidAPI-Key': '3be1bf6d9bmsh02c77fa32daf2e7p100452jsnab9ec26fbb1f',
+		'X-RapidAPI-Host': 'irctc1.p.rapidapi.com'
+	}
+	//body: JSON.stringify({search: document.getElementById("input1").value})
+})
+.then((r)=>r.json())
+.then((json)=>{
+    console.log(json);
+    // for(var x in json){
+    //     document.write(`${json[x].data.TrainNo}<br>`);
+    // }
+    })
+})
+</script>
+</body>
+</html>

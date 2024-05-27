@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Train Ticket Booking</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    .container {
+      width: 50%;
+      margin: 50px auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    label {
+      margin-bottom: 8px;
+    }
+
+    input, select {
+      padding: 10px;
+      margin-bottom: 16px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    button {
+      padding: 12px;
+      background-color: #4caf50;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h2>Train Ticket Booking</h2>
+  <form id="bookingForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="from">From:</label>
+    <input type="text" id="from" name="from" required>
+
+    <label for="to">To:</label>
+    <input type="text" id="to" name="to" required>
+
+    <label for="date">Date:</label>
+    <input type="date" id="date" name="date" required>
+
+    <label for="class">Class:</label>
+    <select id="class" name="class" required>
+      <option value="Sleeper">Sleeper</option>
+      <option value="First AC">First AC</option>
+      <option value="Second AC">Second AC</option>
+      <option value="Third AC">Third AC</option>
+    </select>
+
+    <button type="button" onclick="submitForm()">Book Now</button>
+  </form>
+</div>
+
+<script>
+  function submitForm() {
+    // You can add your logic here to handle the form submission, e.g., send data to the server.
+    // This example only alerts the form data.
+    const form = document.getElementById('bookingForm');
+    const formData = new FormData(form);
+
+    // Display the form data (replace this with your actual submission logic)
+    document.write("<b>tickets booked <br></b>")
+    for (const [key, value] of formData.entries()) {
+      document.write(`${key}: ${value} <br>`);
+    }
+  }
+</script>
+
+</body>
+</html>

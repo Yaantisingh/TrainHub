@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="pscript.css">
+</head>
+<body class="bodii">
+    <div class="main">
+    <header>
+            <div class="nav">
+                <div id="navtext1"><a href="file:///D:/webD/project1.html">Home</a></div>
+                <div id="navtext2"><a href=file:///D:/webD/booktickets.html>Book Tickets</a></div>
+                <div id="navtext3"><a href="file:///D:/webD/searchtrain.html">Search Trains</a></div>
+                <div id="navtext4">Live Train Status</div>
+                <div id="navtext5"><a href="file:///D:/webD/foodpg.html">Order Food</a></div>
+                <div id="navtext6">Search PNR</div>
+                <div id="login"><a href="file:///D:/webD/login.html">Login</a></div>
+                <div id="sign"><a href="file:///D:/webD/reg.html">Sign-up</a></div>
+            </div>
+    </header>
+    <div class="content1">
+        <div id="bar1"> <b><i>TRAVEL</i></b></div>
+        <div id="bar2"> <b><i>EXPLORE</i></b></div>
+        <divs id="bar3"> <b><i>ENJOY</i></b></div>
+    </div>
+    <div class="content2">
+        <div id="c1"><b><a href="file:///D:/webD/project1.html">Home</a></b></div>
+        <div id="c2"><b>SEARCH PNR</b></div>
+        <div id="c3"><b><a href=file:///D:/webD/booktickets.html>BOOK TICKETS</a></b></div>
+        <div id="c4"><b><a href="file:///D:/webD/searchtrain.html">SEARCH TRAINS</a></b></div>
+        <div id="c5"><b>LIVE TRAIN STATUS</b></div>
+        <div id="c6"><b><a href="file:///D:/webD/foodpg.html">ORDER FOOD</a></b></div>
+    </div>
+</div>
+<div class="content3">
+    <!-- <div class="d1"><div id="slider"><img src="" class="" alt="">
+        
+        <img src="Amer-Fort-Jaipur-Ticket-Price-History-Timings-Things-to-Do-scaled.webp" class="slide" alt="lake" height="356" width="1200">
+        <img src="sylwia-bartyzel-eU4pipU_8HA-unsplash-1-1.jpg"class="slide" alt="wonders" height="356" width="1200">
+        <img src="Hawa_Mahal,_Jaipur_(Night_View) (1).jpg"class="slide" alt="historical" height="356" width="1200">
+        <img src="sRI-rANGAM-fEATURE-iMage.png" class="slide" alt="religious" height="356" width="1200">
+        <img src="4688565800_154c419fdf_c.jpg" class="slide" alt="sea" height="356" width="1200">
+        <div class="buttonss">
+            <button onclick="prev()">
+                PREV
+            </button>
+            <button onclick="next()">
+                NEXT
+            </button>
+        </div>
+        </div>
+        </div> -->
+        <div id="slider-container">
+            <div id="slider">
+              <div class="slide"><img src="Amer-Fort-Jaipur-Ticket-Price-History-Timings-Things-to-Do-scaled.webp" class="slide" alt="lake" height="356" width="1200"></div>
+              <div class="slide"><img src="sylwia-bartyzel-eU4pipU_8HA-unsplash-1-1.jpg"class="slide" alt="wonders" height="356" width="1200"></div>
+              <div class="slide"><img src="Hawa_Mahal,_Jaipur_(Night_View) (1).jpg"class="slide" alt="historical" height="356" width="1200"></div>
+              <div class="slide"> <img src="sRI-rANGAM-fEATURE-iMage.png" class="slide" alt="religious" height="356" width="1200"></div>
+              <div class="slide"><img src="4688565800_154c419fdf_c.jpg" class="slide" alt="sea" height="356" width="1200"></div>
+              <!-- Add more slides as needed -->
+            </div>
+        
+            <button class="slider-button" id="prev" onclick="prevSlide()">❮</button>
+            <button class="slider-button" id="next" onclick="nextSlide()">❯</button>
+          </div>
+    <div class="d2">
+        <div id="media">CONNECT WITH US ON</div>
+        <div id="sm">
+        <div id="fb">
+            <h1><a href="https://www.facebook.com/IRCTCofficial/">f</a></h1>
+        </div>
+        <div id="yt">
+            <a href="https://youtube.com/c/IRCTCOFFICIAL"><div id="tri"></div></a>
+        </div>
+        <div class="insta">
+            <a href="https://instagram.com/irctc.official?igshid=yyg5byow704l"><div class="inner"></div></a>
+        </div>
+        <div class="linked">
+            <a href="https://www.linkedin.com/company/irctcofficial"><div><b id="b">in</b></div></a>
+        </div>
+    </div>
+        <div id="foot">HOPE YOU HAD A GREAT EXPERIENCE</div>
+    </div>
+</div>
+<script>
+let currentIndex = 0;
+    const totalSlides = document.querySelectorAll('.slide').length;
+    const slider = document.getElementById('slider');
+
+    function showSlide(index) {
+      if (index < 0) {
+        currentIndex = totalSlides - 1;
+      } else if (index >= totalSlides) {
+        currentIndex = 0;
+      } else {
+        currentIndex = index;
+      }
+
+      const translation = -currentIndex * 100 + '%';
+      slider.style.transform = 'translateX(' + translation + ')';
+    }
+
+    function nextSlide() {
+      showSlide(currentIndex + 1);
+    }
+
+    function prevSlide() {
+      showSlide(currentIndex - 1);
+    }
+</script>
+</body>
+</html>

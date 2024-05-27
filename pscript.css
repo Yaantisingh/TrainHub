@@ -1,0 +1,438 @@
+
+.main{
+    height:525.2px;
+    width: 1504px;
+    border:border-box;
+}
+.content1{
+    height: 525.2px;
+    width: 1498px;
+    color:#37475A;
+    font-size: 35px;
+    font-family: Arial;
+    
+}
+#bar1{
+    margin-left: 60px;
+    padding-top: 30px;
+    margin-bottom: 40px;
+    margin-top: 80px;
+    height: 408px;
+    width: 408px;
+    background-image: url("62058123_large1300.jpg");
+    float: left;
+    background-color: pink;
+    background-size: 308px 308px;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: -5px 5px 5px 2.5px grey;
+    border: 2px solid white;
+}
+#bar2{
+    margin-left: 60px;
+    padding-top: 30px;
+    margin-bottom: 20px;
+    margin-top: 80px;
+    height: 408px;
+    width: 408px;
+    box-shadow: -5px 5px 5px 2.5px grey;
+    background-image: url("hot-air-balloons-flying-mountains_899894-6679.jpg");
+    float: left;
+    background-size: 308px 308px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 2px solid white;
+    background-color: pink;
+} 
+#bar3{
+    padding-top: 30px;
+    margin-left: 60px;
+    margin-bottom: 40px;
+    box-shadow: -5px 5px 5px 2.5px grey;
+    margin-top: 80px;
+    height: 408px;
+    width: 408px;
+    background-image: url("large-group-of-happy-friends-in-mountains-area-royalty-free-image-1653422631.jpg");
+    float: left;
+    background-size: 308px 308px;
+    background-repeat: no-repeat;
+    background-color: pink;
+    background-position: center;
+    border: 2px solid white;
+} 
+.nav{
+    margin-top:0;
+    height: 30px;
+    width: 1504px;
+    background-color: #131A22;
+    font-size: larger;
+    font-family: Arial;
+    border:border-box;
+    position: fixed;
+}
+#navtext1{
+    color: white;
+    text-align: center;
+    height: 30px;
+    width: 11%;
+    float: left;
+}
+#navtext2{
+    color: white;
+    text-align: center;
+    height: 30px;
+    width: 11%;
+    float: left;
+}
+#navtext3{
+    color: white;
+    text-align: center;
+    height: 30px;
+    width: 11%;
+    float: left;
+}
+#navtext4{
+    text-align: center;
+    color: white;
+    height: 30px;
+    width: 11%;
+    float:left;
+}
+#navtext5{
+    text-align: center;
+    color: white;
+    height: 30px;
+    width: 11%;
+    float: left;
+}
+#navtext6{
+    color: white;
+    text-align: center;
+    height: 30px;
+    width: 11%;
+    float: left;
+}
+#login{
+    color: white;
+    text-align: center;
+    height: 30px;
+    width: 15%;
+    padding-left: 7%;
+    float: left;
+}
+#sign{
+    color: white;
+    text-align: center;
+    height: 30px;
+    width: 5%;
+    padding-left: 2%;
+    float: left;
+}
+.content2{
+    height: 496px;
+    width: 1504px;
+    font-size: larger;
+    font-family: Arial;
+    text-align: center;
+    font-size: 40px;
+    /* background-color: white; */
+    color: #37475A;
+}
+#c1{
+    height: 119.5px;
+    width: 433.3333333333px;
+    padding-top: 60px;
+    margin-right: 30px;
+    font-family: Arial;
+    text-align: center;
+    font-size: 20px;
+    background-image: url("home-loan-mob.jpg");
+    float: left;
+    background-color: pink;
+    border: 4px solid white;
+    box-shadow: -5px 5px 5px 2.5px grey;
+    background-size: 380px 170px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#c1:hover{
+    color:blue;
+    background-color: lightblue;
+}
+#c2{
+    padding-top: 60px;
+    height: 119.5px;
+    width: 433.3333333333px;
+    box-shadow: -5px 5px 5px 2.5px grey;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: pink;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Arial;
+    border: 4px solid white;
+    text-align: center;
+    font-size: 20px;
+    float: left;
+background-image: url("alternative-search-engines-.jpg");
+background-size: 380px 170px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#c2:hover{
+    color:blue;
+    background-color: lightblue;
+}
+#c3{
+    padding-top: 60px;
+    height: 119.5px;
+    background-color: pink;
+    width: 433.3333333333px;
+    border: 4px solid white;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Arial;
+    box-shadow: -5px 5px 5px 2.5px grey;
+    text-align: center;
+    font-size: 20px;
+    float: left;
+    background-image: url("railway-ticket-booking.png");
+    background-size: 380px 170px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 30px;
+}
+#c3:hover{
+    color:blue;
+    background-color: lightblue;
+}
+#c4{
+    padding-top: 60px;
+    height: 119.5px;
+    width: 433.3333333333px;
+    border: 4px solid white;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    font-family: Arial;
+    background-color: pink;
+    box-shadow: -5px 5px 5px 2.5px grey;
+    text-align: center;
+    font-size: 20px;
+    float: left;
+    background-image: url("overnight-train-journeys.webp");
+    background-size: 380px 170px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#c4:hover{
+    color:blue;
+    background-color: lightblue;
+}
+#c5{
+    padding-top: 60px;
+    height: 119.5px;
+    width: 433.3333333333px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: pink;
+    font-family: Arial;
+    border: 4px solid white;
+    text-align: center;
+    font-size: 20px;
+    box-shadow: -5px 5px 5px 2.5px grey;
+    float: left;
+    background-image: url("RVR-DesertDusk-HRes.jpg");
+    background-size: 380px 170px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#c5:hover{
+    color:blue;
+    background-color: lightblue;
+}
+#c6{
+    padding-top: 60px;
+    height: 119.5px;
+    width: 433.3333333333px;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+    background-color: pink;
+    font-family: Arial;
+    text-align: center;
+    font-size: 20px;
+    border: 4px solid white;
+    float: left;
+    background-image: url("1687757890708.jpg");
+    box-shadow: -5px 5px 5px 2.5px grey;
+    background-size: 380px 170px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#c6:hover{
+    color:blue;
+    background-color: lightblue;
+}
+.content3{
+    height:796px;
+    width:1500px;
+    background-color: #37475A;
+    border: 2px solid red;
+}
+.d1{
+    height: 368px;
+    width: 1500px;
+    margin-top:20px;
+    padding:0px;
+    
+}
+#slider{
+    height: 356px;
+    width: 1200px;
+    margin: auto;
+    border: 2px solid white;
+    position:relative;
+    overflow:hidden;
+}
+.slide{
+    position:absolute;
+    transition: 1s;
+}
+.buttonss{
+text-align: center;
+margin-top: 5px;
+}
+.butonss button{
+    font-size: 10px;
+    padding: 5px;
+}
+.d2{
+    margin-top:10px;
+    height: 398px;
+    width: 1500px;
+    background-color: #131A22;
+}
+#media{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+#fb {
+    margin-top: 2%;
+margin-left: 37%;
+    background: #4267b2;
+    height:50px;
+    width: 50px;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    float: left;
+}
+h1{
+    position:relative;
+    bottom:65%;
+    font-size: 3em;
+    font-family: 'Roboto',sans-serif;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+#yt{
+    margin-top: 2%;
+    display: flex;
+    margin-left: 4%;
+    justify-content: center;
+    align-items: center;
+    background-color: #f00;
+    width: 60px;
+    height:50px;
+    border-radius: 20px;
+    float: left;
+}
+#tri{
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    border-left: 24px solid white;
+    position: relative;
+    left: 5px;
+}
+.insta{
+    margin-top: 2%;
+    width:53px;
+    height:53px;
+    background: radial-gradient(circle at 30% 107%,
+    #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+    border-radius: 20px;
+    display: grid;
+    float: left;
+    place-items: center;
+    margin-left: 4%;
+}
+.inner{
+    width: 35px;
+    height: 35px;
+    border: 4px solid #fff;
+    border-radius: 10px;
+    display: grid;
+    place-items: center;
+    position: relative;
+    top:12%;
+}
+.inner::before{
+    content: '';
+width: 14px;
+height:14px;
+border: 4px solid #fff;
+border-radius: 50%;
+background: transparent;
+position: absolute;
+}
+.inner::after{
+    content: '';
+width: 2px;
+height:2px;
+border: 2px solid #fff;
+border-radius: 50%;
+background: white;
+position: absolute;
+top:2px;
+right:3px;
+}
+.linked{
+    margin-top: 2%;
+    background-color: #285aeb;
+    width:53px;
+    height:53px;
+    float: left;
+    margin-left: 4%;
+    border-radius: 20px;
+}
+#b{
+    position:relative;
+    top:-2px;
+    color: #fff;
+    align-items: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+  left: 10%;
+}
+#sm{
+    margin-bottom: 14%;
+}
+#foot{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    color:#d6249f
+}

@@ -1,0 +1,45 @@
+.main{
+    background-color: bisque;
+    width: 400px;
+    height: 400px;
+}
+#row1{
+    background-color: yellow;
+    border: 20px;
+    width: 400;
+    height: 200px
+}
+#row2{
+    background-color: blue;
+    border: 20px;
+    width: 400;
+    height: 200px
+}
+#col1{
+    background-color: green;
+    border: 20px;
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+#col2{
+    background-color: blue;
+    border: 20px;
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+#col3{
+    background-color: pink;
+    border: 20px;
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+#col4{
+    background-color: yellow;
+    border: 20px;
+    float: left;
+    width: 200px;
+    height: 200px;
+}
